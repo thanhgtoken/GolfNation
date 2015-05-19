@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A92DE941B00B8CF00432E3C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A92DE921B00B8CF00432E3C /* TestViewController.m */; };
+		6A92DE951B00B8CF00432E3C /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A92DE931B00B8CF00432E3C /* TestViewController.xib */; };
+		6AFFAE281B09EFD6000DEA2E /* mainbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE271B09EFD6000DEA2E /* mainbackground.png */; };
+		6AFFAE2C1B0B15D9000DEA2E /* logo_fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE291B0B15D9000DEA2E /* logo_fb.png */; };
+		6AFFAE2D1B0B15D9000DEA2E /* logo_ig.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE2A1B0B15D9000DEA2E /* logo_ig.png */; };
+		6AFFAE2E1B0B15D9000DEA2E /* logo_tt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE2B1B0B15D9000DEA2E /* logo_tt.png */; };
+		6AFFAE321B0B1FF8000DEA2E /* GNRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAE301B0B1FF8000DEA2E /* GNRegisterViewController.m */; };
+		6AFFAE331B0B1FF8000DEA2E /* GNRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE311B0B1FF8000DEA2E /* GNRegisterViewController.xib */; };
 		CABDB38A1AFFC030008CF3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB3891AFFC030008CF3E1 /* main.m */; };
 		CABDB38D1AFFC030008CF3E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB38C1AFFC030008CF3E1 /* AppDelegate.m */; };
 		CABDB3901AFFC030008CF3E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB38F1AFFC030008CF3E1 /* ViewController.m */; };
@@ -14,6 +22,10 @@
 		CABDB3951AFFC030008CF3E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABDB3941AFFC030008CF3E1 /* Images.xcassets */; };
 		CABDB3981AFFC030008CF3E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CABDB3961AFFC030008CF3E1 /* LaunchScreen.xib */; };
 		CABDB3A41AFFC030008CF3E1 /* GolfNationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB3A31AFFC030008CF3E1 /* GolfNationTests.m */; };
+		CABDB3BF1AFFC6BA008CF3E1 /* GNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB3BE1AFFC6BA008CF3E1 /* GNViewController.m */; };
+		CABDB3C31AFFC6D4008CF3E1 /* GNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB3C11AFFC6D4008CF3E1 /* GNLoginViewController.m */; };
+		CABDB3C41AFFC6D4008CF3E1 /* GNLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CABDB3C21AFFC6D4008CF3E1 /* GNLoginViewController.xib */; };
+		CABDB3C61AFFC93B008CF3E1 /* Top_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = CABDB3C51AFFC93B008CF3E1 /* Top_banner.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A92DE911B00B8CF00432E3C /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		6A92DE921B00B8CF00432E3C /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		6A92DE931B00B8CF00432E3C /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		6AFFAE271B09EFD6000DEA2E /* mainbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainbackground.png; sourceTree = "<group>"; };
+		6AFFAE291B0B15D9000DEA2E /* logo_fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_fb.png; sourceTree = "<group>"; };
+		6AFFAE2A1B0B15D9000DEA2E /* logo_ig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_ig.png; sourceTree = "<group>"; };
+		6AFFAE2B1B0B15D9000DEA2E /* logo_tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_tt.png; sourceTree = "<group>"; };
+		6AFFAE2F1B0B1FF8000DEA2E /* GNRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNRegisterViewController.h; sourceTree = "<group>"; };
+		6AFFAE301B0B1FF8000DEA2E /* GNRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNRegisterViewController.m; sourceTree = "<group>"; };
+		6AFFAE311B0B1FF8000DEA2E /* GNRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GNRegisterViewController.xib; sourceTree = "<group>"; };
 		CABDB3841AFFC030008CF3E1 /* GolfNation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfNation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABDB3881AFFC030008CF3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CABDB3891AFFC030008CF3E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +62,12 @@
 		CABDB39D1AFFC030008CF3E1 /* GolfNationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfNationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABDB3A21AFFC030008CF3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CABDB3A31AFFC030008CF3E1 /* GolfNationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolfNationTests.m; sourceTree = "<group>"; };
+		CABDB3BD1AFFC6BA008CF3E1 /* GNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNViewController.h; sourceTree = "<group>"; };
+		CABDB3BE1AFFC6BA008CF3E1 /* GNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNViewController.m; sourceTree = "<group>"; };
+		CABDB3C01AFFC6D4008CF3E1 /* GNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNLoginViewController.h; sourceTree = "<group>"; };
+		CABDB3C11AFFC6D4008CF3E1 /* GNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNLoginViewController.m; sourceTree = "<group>"; };
+		CABDB3C21AFFC6D4008CF3E1 /* GNLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GNLoginViewController.xib; sourceTree = "<group>"; };
+		CABDB3C51AFFC93B008CF3E1 /* Top_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top_banner.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +109,11 @@
 		CABDB3861AFFC030008CF3E1 /* GolfNation */ = {
 			isa = PBXGroup;
 			children = (
+				CABDB3B81AFFC69B008CF3E1 /* Base */,
+				CABDB3B91AFFC69B008CF3E1 /* Common */,
+				CABDB3BA1AFFC69B008CF3E1 /* Controllers */,
+				CABDB3BB1AFFC69B008CF3E1 /* Libs */,
+				CABDB3BC1AFFC69B008CF3E1 /* Resources */,
 				CABDB38B1AFFC030008CF3E1 /* AppDelegate.h */,
 				CABDB38C1AFFC030008CF3E1 /* AppDelegate.m */,
 				CABDB38E1AFFC030008CF3E1 /* ViewController.h */,
@@ -117,6 +150,57 @@
 				CABDB3A21AFFC030008CF3E1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CABDB3B81AFFC69B008CF3E1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CABDB3BD1AFFC6BA008CF3E1 /* GNViewController.h */,
+				CABDB3BE1AFFC6BA008CF3E1 /* GNViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CABDB3B91AFFC69B008CF3E1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CABDB3BA1AFFC69B008CF3E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CABDB3C01AFFC6D4008CF3E1 /* GNLoginViewController.h */,
+				CABDB3C11AFFC6D4008CF3E1 /* GNLoginViewController.m */,
+				CABDB3C21AFFC6D4008CF3E1 /* GNLoginViewController.xib */,
+				6A92DE911B00B8CF00432E3C /* TestViewController.h */,
+				6A92DE921B00B8CF00432E3C /* TestViewController.m */,
+				6A92DE931B00B8CF00432E3C /* TestViewController.xib */,
+				6AFFAE2F1B0B1FF8000DEA2E /* GNRegisterViewController.h */,
+				6AFFAE301B0B1FF8000DEA2E /* GNRegisterViewController.m */,
+				6AFFAE311B0B1FF8000DEA2E /* GNRegisterViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CABDB3BB1AFFC69B008CF3E1 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		CABDB3BC1AFFC69B008CF3E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6AFFAE291B0B15D9000DEA2E /* logo_fb.png */,
+				6AFFAE2A1B0B15D9000DEA2E /* logo_ig.png */,
+				6AFFAE2B1B0B15D9000DEA2E /* logo_tt.png */,
+				6AFFAE271B09EFD6000DEA2E /* mainbackground.png */,
+				CABDB3C51AFFC93B008CF3E1 /* Top_banner.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +283,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AFFAE281B09EFD6000DEA2E /* mainbackground.png in Resources */,
 				CABDB3931AFFC030008CF3E1 /* Main.storyboard in Resources */,
+				6AFFAE331B0B1FF8000DEA2E /* GNRegisterViewController.xib in Resources */,
+				6AFFAE2E1B0B15D9000DEA2E /* logo_tt.png in Resources */,
 				CABDB3981AFFC030008CF3E1 /* LaunchScreen.xib in Resources */,
 				CABDB3951AFFC030008CF3E1 /* Images.xcassets in Resources */,
+				CABDB3C41AFFC6D4008CF3E1 /* GNLoginViewController.xib in Resources */,
+				6A92DE951B00B8CF00432E3C /* TestViewController.xib in Resources */,
+				6AFFAE2D1B0B15D9000DEA2E /* logo_ig.png in Resources */,
+				6AFFAE2C1B0B15D9000DEA2E /* logo_fb.png in Resources */,
+				CABDB3C61AFFC93B008CF3E1 /* Top_banner.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A92DE941B00B8CF00432E3C /* TestViewController.m in Sources */,
 				CABDB3901AFFC030008CF3E1 /* ViewController.m in Sources */,
+				CABDB3C31AFFC6D4008CF3E1 /* GNLoginViewController.m in Sources */,
+				CABDB3BF1AFFC6BA008CF3E1 /* GNViewController.m in Sources */,
 				CABDB38D1AFFC030008CF3E1 /* AppDelegate.m in Sources */,
 				CABDB38A1AFFC030008CF3E1 /* main.m in Sources */,
+				6AFFAE321B0B1FF8000DEA2E /* GNRegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +512,7 @@
 				CABDB3A91AFFC030008CF3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CABDB3AA1AFFC030008CF3E1 /* Build configuration list for PBXNativeTarget "GolfNationTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +521,7 @@
 				CABDB3AC1AFFC030008CF3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
