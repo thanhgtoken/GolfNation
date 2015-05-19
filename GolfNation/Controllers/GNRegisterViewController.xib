@@ -9,6 +9,7 @@
                 <outlet property="btnRegister" destination="ui9-eu-hsg" id="SGS-U3-9fg"/>
                 <outlet property="tfEmail" destination="v4t-oW-bqA" id="xEy-18-8wu"/>
                 <outlet property="tfPassword" destination="OQg-yT-88C" id="ZII-Ve-Udj"/>
+                <outlet property="topSpacing" destination="cMQ-d5-SWq" id="XD4-5U-zsg"/>
                 <outlet property="view" destination="VDq-bb-5vG" id="fpV-E6-jVT"/>
             </connections>
         </placeholder>

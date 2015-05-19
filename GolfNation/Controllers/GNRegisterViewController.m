@@ -9,7 +9,12 @@
 #import "GNRegisterViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
-@interface GNRegisterViewController ()
+@interface GNRegisterViewController (){
+
+}
+
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *topSpacing;
+
 
 @end
 
@@ -18,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self initLayout];
 }
 
 -(void)initLayout{
@@ -35,6 +41,15 @@
     self.tfPassword.attributedPlaceholder = str1;
 
     self.tfEmail.clipsToBounds = self.tfPassword.clipsToBounds = self.btnRegister.clipsToBounds = YES;
+    
+    if (IS_IPHONE_6) {
+        self.topSpacing.constant = 90.0f;
+        [self.view updateConstraints];
+    }else if (IS_IPHONE_6P){
+        self.topSpacing.constant = 100.0f;
+        [self.view updateConstraints];
+        
+    }
 
     
     
