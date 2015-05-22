@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A92DE941B00B8CF00432E3C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A92DE921B00B8CF00432E3C /* TestViewController.m */; };
-		6A92DE951B00B8CF00432E3C /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A92DE931B00B8CF00432E3C /* TestViewController.xib */; };
 		6AFFAE281B09EFD6000DEA2E /* mainbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE271B09EFD6000DEA2E /* mainbackground.png */; };
 		6AFFAE2C1B0B15D9000DEA2E /* logo_fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE291B0B15D9000DEA2E /* logo_fb.png */; };
 		6AFFAE2D1B0B15D9000DEA2E /* logo_ig.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE2A1B0B15D9000DEA2E /* logo_ig.png */; };
 		6AFFAE2E1B0B15D9000DEA2E /* logo_tt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE2B1B0B15D9000DEA2E /* logo_tt.png */; };
 		6AFFAE321B0B1FF8000DEA2E /* GNRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAE301B0B1FF8000DEA2E /* GNRegisterViewController.m */; };
 		6AFFAE331B0B1FF8000DEA2E /* GNRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE311B0B1FF8000DEA2E /* GNRegisterViewController.xib */; };
+		6AFFAE911B0ED4FD000DEA2E /* btn_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE901B0ED4FD000DEA2E /* btn_close.png */; };
+		6AFFAE951B0ED5D4000DEA2E /* ManageGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAE931B0ED5D4000DEA2E /* ManageGamesViewController.m */; };
+		6AFFAE961B0ED5D4000DEA2E /* ManageGamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE941B0ED5D4000DEA2E /* ManageGamesViewController.xib */; };
+		6AFFAE9B1B0ED97E000DEA2E /* ListGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAE991B0ED97E000DEA2E /* ListGamesViewController.m */; };
+		6AFFAE9C1B0ED97E000DEA2E /* ListGamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE9A1B0ED97E000DEA2E /* ListGamesViewController.xib */; };
+		6AFFAEA01B0ED9A4000DEA2E /* ListGamesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAE9E1B0ED9A4000DEA2E /* ListGamesTableViewCell.m */; };
+		6AFFAEA11B0ED9A4000DEA2E /* ListGamesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE9F1B0ED9A4000DEA2E /* ListGamesTableViewCell.xib */; };
+		6AFFAEA31B0EE26D000DEA2E /* btnNext.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEA21B0EE26D000DEA2E /* btnNext.png */; };
+		6AFFAEA51B0EE2F2000DEA2E /* btnNext_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEA41B0EE2F2000DEA2E /* btnNext_1.png */; };
+		6AFFAEA91B0EE368000DEA2E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAEA71B0EE368000DEA2E /* GameViewController.m */; };
+		6AFFAEAA1B0EE368000DEA2E /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEA81B0EE368000DEA2E /* GameViewController.xib */; };
+		6AFFAEAC1B0EE877000DEA2E /* golfhole.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEAB1B0EE877000DEA2E /* golfhole.png */; };
+		6AFFAEB01B0EECD4000DEA2E /* ListGamesManageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAEAE1B0EECD4000DEA2E /* ListGamesManageTableViewCell.m */; };
+		6AFFAEB11B0EECD4000DEA2E /* ListGamesManageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEAF1B0EECD4000DEA2E /* ListGamesManageTableViewCell.xib */; };
+		6AFFAEB51B0EFCC2000DEA2E /* AutoRechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAEB31B0EFCC2000DEA2E /* AutoRechargeViewController.m */; };
+		6AFFAEB61B0EFCC2000DEA2E /* AutoRechargeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEB41B0EFCC2000DEA2E /* AutoRechargeViewController.xib */; };
+		6AFFAEBA1B0F02A9000DEA2E /* BillingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAEB81B0F02A9000DEA2E /* BillingViewController.m */; };
+		6AFFAEBB1B0F02A9000DEA2E /* BillingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEB91B0F02A9000DEA2E /* BillingViewController.xib */; };
 		CABDB38A1AFFC030008CF3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB3891AFFC030008CF3E1 /* main.m */; };
 		CABDB38D1AFFC030008CF3E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB38C1AFFC030008CF3E1 /* AppDelegate.m */; };
 		CABDB3901AFFC030008CF3E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB38F1AFFC030008CF3E1 /* ViewController.m */; };
@@ -39,9 +55,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6A92DE911B00B8CF00432E3C /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		6A92DE921B00B8CF00432E3C /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		6A92DE931B00B8CF00432E3C /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		6AFFAE271B09EFD6000DEA2E /* mainbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainbackground.png; sourceTree = "<group>"; };
 		6AFFAE291B0B15D9000DEA2E /* logo_fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_fb.png; sourceTree = "<group>"; };
 		6AFFAE2A1B0B15D9000DEA2E /* logo_ig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_ig.png; sourceTree = "<group>"; };
@@ -49,6 +62,31 @@
 		6AFFAE2F1B0B1FF8000DEA2E /* GNRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNRegisterViewController.h; sourceTree = "<group>"; };
 		6AFFAE301B0B1FF8000DEA2E /* GNRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNRegisterViewController.m; sourceTree = "<group>"; };
 		6AFFAE311B0B1FF8000DEA2E /* GNRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GNRegisterViewController.xib; sourceTree = "<group>"; };
+		6AFFAE901B0ED4FD000DEA2E /* btn_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close.png; sourceTree = "<group>"; };
+		6AFFAE921B0ED5D4000DEA2E /* ManageGamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageGamesViewController.h; sourceTree = "<group>"; };
+		6AFFAE931B0ED5D4000DEA2E /* ManageGamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageGamesViewController.m; sourceTree = "<group>"; };
+		6AFFAE941B0ED5D4000DEA2E /* ManageGamesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManageGamesViewController.xib; sourceTree = "<group>"; };
+		6AFFAE981B0ED97E000DEA2E /* ListGamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListGamesViewController.h; sourceTree = "<group>"; };
+		6AFFAE991B0ED97E000DEA2E /* ListGamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListGamesViewController.m; sourceTree = "<group>"; };
+		6AFFAE9A1B0ED97E000DEA2E /* ListGamesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListGamesViewController.xib; sourceTree = "<group>"; };
+		6AFFAE9D1B0ED9A4000DEA2E /* ListGamesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListGamesTableViewCell.h; sourceTree = "<group>"; };
+		6AFFAE9E1B0ED9A4000DEA2E /* ListGamesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListGamesTableViewCell.m; sourceTree = "<group>"; };
+		6AFFAE9F1B0ED9A4000DEA2E /* ListGamesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListGamesTableViewCell.xib; sourceTree = "<group>"; };
+		6AFFAEA21B0EE26D000DEA2E /* btnNext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnNext.png; sourceTree = "<group>"; };
+		6AFFAEA41B0EE2F2000DEA2E /* btnNext_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnNext_1.png; sourceTree = "<group>"; };
+		6AFFAEA61B0EE368000DEA2E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		6AFFAEA71B0EE368000DEA2E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		6AFFAEA81B0EE368000DEA2E /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		6AFFAEAB1B0EE877000DEA2E /* golfhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golfhole.png; sourceTree = "<group>"; };
+		6AFFAEAD1B0EECD4000DEA2E /* ListGamesManageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListGamesManageTableViewCell.h; sourceTree = "<group>"; };
+		6AFFAEAE1B0EECD4000DEA2E /* ListGamesManageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListGamesManageTableViewCell.m; sourceTree = "<group>"; };
+		6AFFAEAF1B0EECD4000DEA2E /* ListGamesManageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListGamesManageTableViewCell.xib; sourceTree = "<group>"; };
+		6AFFAEB21B0EFCC2000DEA2E /* AutoRechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoRechargeViewController.h; sourceTree = "<group>"; };
+		6AFFAEB31B0EFCC2000DEA2E /* AutoRechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoRechargeViewController.m; sourceTree = "<group>"; };
+		6AFFAEB41B0EFCC2000DEA2E /* AutoRechargeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoRechargeViewController.xib; sourceTree = "<group>"; };
+		6AFFAEB71B0F02A9000DEA2E /* BillingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingViewController.h; sourceTree = "<group>"; };
+		6AFFAEB81B0F02A9000DEA2E /* BillingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillingViewController.m; sourceTree = "<group>"; };
+		6AFFAEB91B0F02A9000DEA2E /* BillingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BillingViewController.xib; sourceTree = "<group>"; };
 		CABDB3841AFFC030008CF3E1 /* GolfNation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfNation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABDB3881AFFC030008CF3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CABDB3891AFFC030008CF3E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +126,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AFFAE971B0ED96B000DEA2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AFFAE9D1B0ED9A4000DEA2E /* ListGamesTableViewCell.h */,
+				6AFFAE9E1B0ED9A4000DEA2E /* ListGamesTableViewCell.m */,
+				6AFFAE9F1B0ED9A4000DEA2E /* ListGamesTableViewCell.xib */,
+				6AFFAEAD1B0EECD4000DEA2E /* ListGamesManageTableViewCell.h */,
+				6AFFAEAE1B0EECD4000DEA2E /* ListGamesManageTableViewCell.m */,
+				6AFFAEAF1B0EECD4000DEA2E /* ListGamesManageTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		CABDB37B1AFFC030008CF3E1 = {
 			isa = PBXGroup;
 			children = (
@@ -171,15 +222,28 @@
 		CABDB3BA1AFFC69B008CF3E1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6AFFAE971B0ED96B000DEA2E /* Views */,
 				CABDB3C01AFFC6D4008CF3E1 /* GNLoginViewController.h */,
 				CABDB3C11AFFC6D4008CF3E1 /* GNLoginViewController.m */,
 				CABDB3C21AFFC6D4008CF3E1 /* GNLoginViewController.xib */,
-				6A92DE911B00B8CF00432E3C /* TestViewController.h */,
-				6A92DE921B00B8CF00432E3C /* TestViewController.m */,
-				6A92DE931B00B8CF00432E3C /* TestViewController.xib */,
 				6AFFAE2F1B0B1FF8000DEA2E /* GNRegisterViewController.h */,
 				6AFFAE301B0B1FF8000DEA2E /* GNRegisterViewController.m */,
 				6AFFAE311B0B1FF8000DEA2E /* GNRegisterViewController.xib */,
+				6AFFAE921B0ED5D4000DEA2E /* ManageGamesViewController.h */,
+				6AFFAE931B0ED5D4000DEA2E /* ManageGamesViewController.m */,
+				6AFFAE941B0ED5D4000DEA2E /* ManageGamesViewController.xib */,
+				6AFFAE981B0ED97E000DEA2E /* ListGamesViewController.h */,
+				6AFFAE991B0ED97E000DEA2E /* ListGamesViewController.m */,
+				6AFFAE9A1B0ED97E000DEA2E /* ListGamesViewController.xib */,
+				6AFFAEA61B0EE368000DEA2E /* GameViewController.h */,
+				6AFFAEA71B0EE368000DEA2E /* GameViewController.m */,
+				6AFFAEA81B0EE368000DEA2E /* GameViewController.xib */,
+				6AFFAEB21B0EFCC2000DEA2E /* AutoRechargeViewController.h */,
+				6AFFAEB31B0EFCC2000DEA2E /* AutoRechargeViewController.m */,
+				6AFFAEB41B0EFCC2000DEA2E /* AutoRechargeViewController.xib */,
+				6AFFAEB71B0F02A9000DEA2E /* BillingViewController.h */,
+				6AFFAEB81B0F02A9000DEA2E /* BillingViewController.m */,
+				6AFFAEB91B0F02A9000DEA2E /* BillingViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -194,6 +258,10 @@
 		CABDB3BC1AFFC69B008CF3E1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6AFFAEAB1B0EE877000DEA2E /* golfhole.png */,
+				6AFFAEA41B0EE2F2000DEA2E /* btnNext_1.png */,
+				6AFFAEA21B0EE26D000DEA2E /* btnNext.png */,
+				6AFFAE901B0ED4FD000DEA2E /* btn_close.png */,
 				6AFFAE291B0B15D9000DEA2E /* logo_fb.png */,
 				6AFFAE2A1B0B15D9000DEA2E /* logo_ig.png */,
 				6AFFAE2B1B0B15D9000DEA2E /* logo_tt.png */,
@@ -284,15 +352,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AFFAE281B09EFD6000DEA2E /* mainbackground.png in Resources */,
+				6AFFAE9C1B0ED97E000DEA2E /* ListGamesViewController.xib in Resources */,
 				CABDB3931AFFC030008CF3E1 /* Main.storyboard in Resources */,
+				6AFFAEA51B0EE2F2000DEA2E /* btnNext_1.png in Resources */,
+				6AFFAEA11B0ED9A4000DEA2E /* ListGamesTableViewCell.xib in Resources */,
 				6AFFAE331B0B1FF8000DEA2E /* GNRegisterViewController.xib in Resources */,
+				6AFFAE911B0ED4FD000DEA2E /* btn_close.png in Resources */,
 				6AFFAE2E1B0B15D9000DEA2E /* logo_tt.png in Resources */,
 				CABDB3981AFFC030008CF3E1 /* LaunchScreen.xib in Resources */,
+				6AFFAEA31B0EE26D000DEA2E /* btnNext.png in Resources */,
 				CABDB3951AFFC030008CF3E1 /* Images.xcassets in Resources */,
+				6AFFAE961B0ED5D4000DEA2E /* ManageGamesViewController.xib in Resources */,
 				CABDB3C41AFFC6D4008CF3E1 /* GNLoginViewController.xib in Resources */,
-				6A92DE951B00B8CF00432E3C /* TestViewController.xib in Resources */,
+				6AFFAEAA1B0EE368000DEA2E /* GameViewController.xib in Resources */,
 				6AFFAE2D1B0B15D9000DEA2E /* logo_ig.png in Resources */,
+				6AFFAEAC1B0EE877000DEA2E /* golfhole.png in Resources */,
+				6AFFAEBB1B0F02A9000DEA2E /* BillingViewController.xib in Resources */,
+				6AFFAEB61B0EFCC2000DEA2E /* AutoRechargeViewController.xib in Resources */,
 				6AFFAE2C1B0B15D9000DEA2E /* logo_fb.png in Resources */,
+				6AFFAEB11B0EECD4000DEA2E /* ListGamesManageTableViewCell.xib in Resources */,
 				CABDB3C61AFFC93B008CF3E1 /* Top_banner.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,13 +389,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A92DE941B00B8CF00432E3C /* TestViewController.m in Sources */,
+				6AFFAEA91B0EE368000DEA2E /* GameViewController.m in Sources */,
 				CABDB3901AFFC030008CF3E1 /* ViewController.m in Sources */,
 				CABDB3C31AFFC6D4008CF3E1 /* GNLoginViewController.m in Sources */,
 				CABDB3BF1AFFC6BA008CF3E1 /* GNViewController.m in Sources */,
 				CABDB38D1AFFC030008CF3E1 /* AppDelegate.m in Sources */,
+				6AFFAEA01B0ED9A4000DEA2E /* ListGamesTableViewCell.m in Sources */,
+				6AFFAE9B1B0ED97E000DEA2E /* ListGamesViewController.m in Sources */,
 				CABDB38A1AFFC030008CF3E1 /* main.m in Sources */,
+				6AFFAEB51B0EFCC2000DEA2E /* AutoRechargeViewController.m in Sources */,
 				6AFFAE321B0B1FF8000DEA2E /* GNRegisterViewController.m in Sources */,
+				6AFFAEB01B0EECD4000DEA2E /* ListGamesManageTableViewCell.m in Sources */,
+				6AFFAE951B0ED5D4000DEA2E /* ManageGamesViewController.m in Sources */,
+				6AFFAEBA1B0F02A9000DEA2E /* BillingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

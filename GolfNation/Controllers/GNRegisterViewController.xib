@@ -21,6 +21,19 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="tM5-gv-nFa">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39X-aO-PqI" userLabel="close">
+                    <rect key="frame" x="20" y="30" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="LyD-GH-opi"/>
+                        <constraint firstAttribute="width" constant="24" id="do1-3X-vXR"/>
+                    </constraints>
+                    <state key="normal" image="btn_close.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backTapped:" destination="-1" eventType="touchUpInside" id="uel-wK-ISi"/>
+                    </connections>
+                </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Top_banner.png" translatesAutoresizingMaskIntoConstraints="NO" id="jJR-bW-oq5">
                     <rect key="frame" x="25" y="80" width="270" height="42"/>
                     <constraints>
@@ -73,10 +86,12 @@
                 <constraint firstItem="v4t-oW-bqA" firstAttribute="centerX" secondItem="OQg-yT-88C" secondAttribute="centerX" id="3TX-Po-v7l"/>
                 <constraint firstItem="tM5-gv-nFa" firstAttribute="top" secondItem="VDq-bb-5vG" secondAttribute="top" id="5wd-Ak-7w9"/>
                 <constraint firstItem="4Tv-4w-fWA" firstAttribute="centerX" secondItem="v4t-oW-bqA" secondAttribute="centerX" constant="0.5" id="6Jy-ej-DOf"/>
+                <constraint firstItem="39X-aO-PqI" firstAttribute="top" secondItem="VDq-bb-5vG" secondAttribute="top" constant="30" id="CP7-3D-xDi"/>
                 <constraint firstItem="OQg-yT-88C" firstAttribute="top" secondItem="v4t-oW-bqA" secondAttribute="bottom" constant="10" id="Nqn-Fh-VKZ"/>
                 <constraint firstAttribute="centerX" secondItem="tM5-gv-nFa" secondAttribute="centerX" id="Rkp-cR-ic1"/>
                 <constraint firstItem="tM5-gv-nFa" firstAttribute="leading" secondItem="VDq-bb-5vG" secondAttribute="leading" id="T2N-M4-mN2"/>
                 <constraint firstItem="OQg-yT-88C" firstAttribute="centerX" secondItem="ui9-eu-hsg" secondAttribute="centerX" id="UL2-kR-K8w"/>
+                <constraint firstItem="39X-aO-PqI" firstAttribute="leading" secondItem="VDq-bb-5vG" secondAttribute="leading" constant="20" id="Xl7-Ue-zfD"/>
                 <constraint firstItem="v4t-oW-bqA" firstAttribute="height" secondItem="OQg-yT-88C" secondAttribute="height" id="adp-Lj-FO7"/>
                 <constraint firstItem="v4t-oW-bqA" firstAttribute="top" secondItem="4Tv-4w-fWA" secondAttribute="bottom" constant="30" id="c2K-bn-l8Q"/>
                 <constraint firstItem="jJR-bW-oq5" firstAttribute="top" secondItem="VDq-bb-5vG" secondAttribute="top" constant="80" id="cMQ-d5-SWq"/>
@@ -91,6 +106,7 @@
     </objects>
     <resources>
         <image name="Top_banner.png" width="1046" height="106"/>
+        <image name="btn_close.png" width="94" height="94"/>
         <image name="mainbackground.png" width="640" height="1138"/>
     </resources>
 </document>

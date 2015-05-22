@@ -70,4 +70,14 @@
 }
 */
 
+#pragma navigate
+
+- (IBAction)backTapped:(id)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
+}
+
+
 @end

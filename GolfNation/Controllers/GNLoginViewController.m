@@ -8,7 +8,9 @@
 
 #import "GNLoginViewController.h"
 #import "GNRegisterViewController.h"
+#import "ListGamesViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "GameViewController.h"
 
 @interface GNLoginViewController (){
 }
@@ -84,7 +86,12 @@
 
 - (IBAction)goToRegister:(id)sender {
     
-    GNRegisterViewController *registerVC = [[GNRegisterViewController alloc] initWithNibName:@"GNRegisterViewController" bundle:nil];
+//    GNRegisterViewController *registerVC = [[GNRegisterViewController alloc] initWithNibName:@"GNRegisterViewController" bundle:nil];
+//    [self presentViewController:registerVC animated:YES completion:^{
+//        
+//    }];
+    
+    GameViewController *registerVC = [[GameViewController alloc] initWithNibName:@"GameViewController" bundle:nil];
     [self presentViewController:registerVC animated:YES completion:^{
         
     }];
